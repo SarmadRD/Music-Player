@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main>#cont{
+    /* background-color: red; */
+    /* animation: multicolor 4s infinite; */
+    border: 1px solid black;
+    width: 22.3%;
+    border-radius: 5px;
+}
+#cont img{
+    width: 303.5px;
+    height: 270px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+#cont>h4{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#cont>#duration{
+    width: 80%;
+    margin: auto;
+    display: block;
+    /* background-color: red; */
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes multicolor{
+    0%{
+        background-color: black;
+
+    };
+    20%{
+        background-color: green;
+    };
+    40%{
+        background-color: yellow;
+    };
+    60%{
+        background-color: brown;
+    };
+    80%{
+        background-color: blue;
+    };
+    100%{
+        background-color: aqua;
+    };
+} 
